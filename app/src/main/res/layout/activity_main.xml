@@ -1,13 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:context=".MainActivity">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        ></fragment>
+        android:name="com.bignerdranch.eventbus_example.FragmentOne"
+        android:id="@+id/fragment_one"
+        tools:layout="@layout/fragment_one"/>
+        <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_two"
+        android:name="com.bignerdranch.eventbus_example.FragmentTwo"
+        tools:layout="@layout/fragment_two"/>
 
 
 </LinearLayout>

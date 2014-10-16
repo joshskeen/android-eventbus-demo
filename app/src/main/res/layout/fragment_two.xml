@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="send message to fragment two"
+        android:text="send message to fragment one"
         android:id="@+id/fragment_two_send_message_button"
         />
 

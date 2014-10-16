@@ -37,7 +37,6 @@ public class FragmentOne extends Fragment {
         mStatus.setText("got event! " + event.toString());
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_one, container, false);

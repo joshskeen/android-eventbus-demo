@@ -11,12 +11,12 @@
         android:name="com.bignerdranch.eventbus_example.FragmentOne"
         android:id="@+id/fragment_one"
         tools:layout="@layout/fragment_one"/>
-        <fragment
+
+    <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fragment_two"
         android:name="com.bignerdranch.eventbus_example.FragmentTwo"
         tools:layout="@layout/fragment_two"/>
-
 
 </LinearLayout>

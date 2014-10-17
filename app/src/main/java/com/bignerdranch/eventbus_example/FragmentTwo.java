@@ -43,7 +43,6 @@ public class FragmentTwo extends Fragment {
         View view = inflater.inflate(R.layout.fragment_two, container, false);
         mSendMessageButton = (Button) view.findViewById(R.id.fragment_two_send_message_button);
         mStatus = (TextView) view.findViewById(R.id.fragment_two_status);
-
         mSendMessageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
